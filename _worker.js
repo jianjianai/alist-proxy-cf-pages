@@ -149,6 +149,9 @@ async function handleRequest(request) {
 // src/index.ts
 var src_default = {
   async fetch(request, env, ctx) {
+    ADDRESS = env.ADDRESS || ADDRESS;
+    TOKEN = env.TOKEN || TOKEN;
+    WORKER_ADDRESS = env.WORKER_ADDRESS || WORKER_ADDRESS;
     PATH_PREFIX = env.PATH_PREFIX || PATH_PREFIX;
     return await handleRequest(request);
   }
