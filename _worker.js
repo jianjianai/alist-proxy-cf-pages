@@ -2,7 +2,7 @@
 var ADDRESS = "YOUR_ADDRESS";
 var TOKEN = "YOUR_TOKEN";
 var WORKER_ADDRESS = "YOUR_WORKER_ADDRESS";
-var PATH_PREFIX = ""  // 代理前缀，例如设置为 "/proxy/" 那么alist里就可以填 https://you.pr.com/proxy/
+var PATH_PREFIX = "/2a9h86st1hj/download/"  // 代理前缀，例如设置为 "/proxy/" 那么alist里就可以填 https://you.pr.com/proxy/
 
 
 // src/verify.ts
